@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting Up an Ubuntu Server with NGINX, MySQL, Node.js, Git, Docker, and SSL in AWS EC2 Instance"
-date:   2023-07-06 13:35:41 +0545
+date:   2023-07-06 13:35:41
 categories: Deployment
 tags: [Deployment, AWS]
 readtime: true
