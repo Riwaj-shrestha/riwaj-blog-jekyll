@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2023-07-01 14:55:41
+date:   2023-07-01
 categories: jekyll update
 readtime: true
 ---
