@@ -21,9 +21,9 @@ author: Riwaj Shrestha
 
 navbar-links:
   Home: "/"
-  About Me: "aboutme"
-  Works: "works"
   Writings: "posts"
+  Works: "works"
+  About Me: "aboutme"
   Contact: "contact"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
