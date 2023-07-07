@@ -5,7 +5,7 @@ date:   2023-07-07
 categories: Deployment
 tags: [Deployment]
 readtime: true
-thumbnail-img: /assets/img/cloud-server-thumb.jpg
+thumbnail-img: /assets/img/firebase.jpg
 ---
 In this post, we will guide you through the process of hosting React Build in Firebase. Let's dive in and get started!
 

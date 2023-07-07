@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about-me
 title: About me
 subtitle: "Frontend Developer Extraordinaire: Turning Coffee into Code and Designs into Delight!"
 permalink: /aboutme/

@@ -1152,3 +1152,21 @@ pre {
     display: inline-block;
   }
 }
+
+.about-img {
+  width: 26rem;
+  margin: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+}
+
+.about-intro {
+  font-family: 'Playfair Display',serif;
+}
+
+.intro__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
