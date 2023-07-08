@@ -24,8 +24,8 @@ description: This is the personal website of Riwaj Shrestha. Come and explore hi
 navbar-links:
   Home: "/"
   Writings: "posts"
-  Works: "works"
   About Me: "aboutme"
+  Works: "works"
   Contact: "contact"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
