@@ -6,9 +6,9 @@ categories: Development
 tags: [Development]
 readtime: true
 thumbnail-img: /assets/img/model-adapter.jpg
-cover-img: /assets/img/model-adapter-cover.jpg
 share-img: /assets/img/model-adapter-cover.jpg
 ---
+![Model-Adapter Pattern](/assets/img/model-adapter-cover.jpg)
 In the world of web development, Angular has emerged as one of the most popular frameworks for building dynamic and robust single-page applications (SPAs). As projects grow in complexity, developers often find themselves dealing with various data structures and APIs. This is where design patterns come to the rescue, providing reusable solutions to common problems. One such pattern is the Model-Adapter pattern, which helps to streamline data manipulation and improve code maintainability. In this article, we will dive into the Model-Adapter pattern and demonstrate its implementation using Angular.
 
 ### Understanding the Model-Adapter Pattern
