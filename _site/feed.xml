@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Exploring the Model-Adapter Pattern in Angular</title>
+        <description>
+          
+          In the world of web development, Angular has emerged as one of the most popular frameworks for building dynamic and robust single-page applications (SPAs). As projects grow in complexity, developers often find themselves dealing with various data structures and APIs. This is where design patterns come to the rescue, providing...
+        </description>
+        <pubDate>Sun, 24 Sep 2023 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2023/09/24/model-adapter-pattern/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/24/model-adapter-pattern/</guid>
+      </item>
+    
+      <item>
         <title>Host React Build in Firebase</title>
         <description>
           

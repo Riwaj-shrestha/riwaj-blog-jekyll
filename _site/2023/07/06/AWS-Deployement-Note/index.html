@@ -2,6 +2,15 @@
 <html lang="en">
 <!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1RREYBRBR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-X1RREYBRBR');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
@@ -188,6 +197,14 @@
     var searchjson = '[ \
        \
         { \
+          "title"    : "Exploring the Model-Adapter Pattern in Angular", \
+          "desc"     : "Exploring the Model-Adapter Pattern in Angular", \
+          "category" : "Development", \
+          "url"      : "/2023/09/24/model-adapter-pattern/", \
+          "date"     : "September 24, 2023" \
+        }, \
+       \
+        { \
           "title"    : "Host React Build in Firebase", \
           "desc"     : "Host React Build in Firebase", \
           "category" : "Deployment", \
@@ -217,6 +234,14 @@
           "desc"     : "About me", \
           "category" : "page", \
           "url"      : "/aboutme/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Contact", \
+          "desc"     : "Contact", \
+          "category" : "page", \
+          "url"      : "/contact/", \
           "date"     : "January 1, 1970" \
         }, \
        \
@@ -545,7 +570,23 @@ try_files $uri /index.html;
         
       </ul>
       
-  
+  <div class="disqus-comments">
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+	  var disqus_shortname = 'riwajstha-com-np';
+	  /* ensure that pages with query string get the same discussion */
+	  var url_parts = window.location.href.split("?");
+	  var disqus_url = url_parts[0];
+	  (function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
   
   
 
@@ -608,7 +649,7 @@ try_files $uri /index.html;
         Riwaj Shrestha
         &nbsp;&bull;&nbsp;
       
-      2023
+      2024
 
       
         &nbsp;&bull;&nbsp;
