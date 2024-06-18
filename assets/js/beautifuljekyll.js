@@ -140,3 +140,25 @@ let BeautifulJekyllJS = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+
+// active nav link
+document.addEventListener('DOMContentLoaded', () => {
+  const navLinks = document.querySelectorAll('.nav-link');
+  const currentUrl = window.location.href;
+  navLinks.forEach(link => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref !== '/') {
+      if (currentUrl.includes(linkHref)) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+
+      link.addEventListener('click', (e) => {
+        navLinks.forEach(link => link.classList.remove('active'));
+        e.target.classList.add('active');
+      });
+    }
+  });
+});
+// active nav link
